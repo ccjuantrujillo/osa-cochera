@@ -74,9 +74,9 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 ## Local
-$database = 'osa-cochera';
+$database = 'osa_cochera';
 $username = 'root';
-$password = '123456';
+$password = '';
 
 ## Servidor
 #$database = 'factura1_desarrollo';
@@ -85,7 +85,7 @@ $password = '123456';
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:3308',
+	'hostname' => 'localhost',
 	'username' => $username,
 	'password' => $password,
 	'database' => $database,
